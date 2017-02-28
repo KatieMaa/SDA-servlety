@@ -1,4 +1,4 @@
-package com.kasia;
+package kasia;
 
 /**
  * Created by RENT on 2017-02-28.

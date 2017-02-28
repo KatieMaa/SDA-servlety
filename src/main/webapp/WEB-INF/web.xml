@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>kasia.MyServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PathServlet</servlet-name>
+        <servlet-class>kasia.PathServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PathServlet</servlet-name>
+        <url-pattern>/path/*</url-pattern>
+    </servlet-mapping>
+</web-app>
